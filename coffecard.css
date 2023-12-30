@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;1,400&family=Poppins:wght@300;400;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#wrapper{
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    background-color: antiquewhite;
+}
+.container{
+    height: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    
+    
+}
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+    
+}
+.image{
+    width: 50%;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    overflow: hidden;
+     background-color: white;
+}
+.image img{
+    width: 100%;
+    height: 100%;
+    
+}
+.image .h3{
+   padding: 20px;
+   margin-top: 5px;
+   color: darksalmon;
+   width: 500;
+
+
+}
+.image .h1{
+    padding-top: 5px;
+    padding-left: 10px;
+
+    
+
+}
+.image .para{
+    padding: 15px;
+}
+.image .price{
+   
+    margin: 1rem;
+    padding-left: 2rem;
+    padding-right: 3rem;
+    display: flex;
+    margin-top: 0.2rem;
+    justify-content: space-between;
+
+}
+.pr{
+display: inline-block;
+  
+
+padding-left: 0.1rem;
+padding-right: 0.5rem ;
+  color: green;
+  
+  /* row-gap: 0.75rem;
+    column-gap: 0.75rem; */
+    font-weight: 700;
+    font-size: 30px;
+
+}
+.pe{
+display: flex;
+  
+padding-left: 0.1rem;
+padding-right: 0.5rem ;
+    margin-top: 10px;
+    
+    color: #185992;
+    
+    font-weight: 500;
+    font-size: 20px;
+}
+.pb{
+    display: inline-block;
+  
+    padding-left: 2rem;
+    padding-right: 1rem ;
+    color: #ffffff;
+    background-color: #1DD1A1;
+    vertical-align: middle;
+   
+    border-radius: 2rem;
+    
+    row-gap: 0.75rem;
+    column-gap: 0.75rem;
+    font-weight: 400;
+    font-size: 15px;
+}
+.button{
+    height: 22px;
+    width: 300px;
+    margin: 0.5rem;
+padding-left: 0.5rem;
+    padding-right: 1rem; 
+    display: flex;
+    margin-top: 0.3rem;
+    padding-bottom: 4rem;
+}
+.bt{
+    height: 50px;
+    width: 500px;
+    color: #ffffff;
+    background-color:palevioletred;
+    transition: all 0.3s ease;
+    font-weight: 700;
+    font-size: 20px;
+    border-radius: 1rem;
+}
+.bt:active{
+transform: scale(0.96);
+}
+.bt:hover{
+    background-color: #1DD1A1;
+    border-radius: 3rem;
+    color: black;
+}
